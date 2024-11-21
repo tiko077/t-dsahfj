@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Платформа для разработчиков игр</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1f1d1d;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #292b2c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+
+            background-color: rgb(160, 159, 159);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+
+         width: 100%;
+  padding: 20px;
+  color: white;
+  position: sticky;
+  top: 120px; /* Элемент будет приклеиваться к верху экрана через 20px прокрутки */
+  z-index: 10;
+        }
+        .card h2 {
+            margin-top: 0;
+            
+        }
+        footer {
+            background-color: #292b2c;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .card ul li {
+            margin: 8px 0;
+        }
+        .hero {
+            background-image: url(img/0d32b9c56e7038fbf6cec1b5b1b10341.jpg); /* Тут можно поставить изображение для баннера */
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-top: 50PX;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        .btn {
+            background-color: #f39c12;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #e67e22;
+        }
+
+.bb{ padding: 0;
+            color: rgb(63, 63, 63);
+            border: none;   
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+}
+
+.btb{
+    margin-top: 20px;
+}
+
+.text-text{
+    color: aliceblue;
+    font-size: 50px;
+text-align: center;
+}
+
+.scr{
+    margin-top: 30px;
+}
+
+
+.bt{
+            background-color:black;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .pp{
+            margin-top: 10px;
+        }
+
+        .ii{
+            margin-top: 10px;
+            
+        }
+
+        .homm{width: 100%;
+            height: auto; /* закрепление */
+            position: fixed;
+          z-index: 20;
+
+        }
+.ff{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 90px;
+    z-index: 20;
+}
+       /* .fix{
+  color: white;
+top: 870px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 20;
+            position: fixed;
+        }*/
+        /*<div class="fix">
+    
+
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#docs">Документация</a>
+        <a href="#tools">Инструменты</a>
+        <a href="#forum">Форум</a>
+        <a href="#projects">Примеры</a>
+        <a href="#resources">Обучение</a>
+    </nav>
+</div>
+*/
+
+
+
+    </style>
+    <link rel="stylesheet" href="ccs.css">
+</head>
+<body>
+    <div class="homm">
+<header>
+   
+            <h1>Разработка игр: Ресурсы и Инструменты</h1>
+    <p>Все для создания игр: инструменты, гайды, и сообщество разработчиков</p>
+</header> </div>
+<div class="ff">
+
+
+<nav>
+    <a href="#home">Главная</a>
+    <a href="#docs">Документация</a>
+    <a href="#tools">Инструменты</a>
+    <a href="#forum">Форум</a>
+    <a href="#projects">Примеры</a>
+    <a href="#resources">Обучение</a>
+</nav>
+</div>
+        
+        
+
+
+
+<section id="home">
+    <div class="hero">
+    <h1>Создавайте игры с нами!</h1>
+    <p>Мы собрали лучшие ресурсы для разработки игр и технологий, чтобы вы могли реализовать свои идеи.</p>
+    <div class="btb">
+        <a href="#resources" class="btn">Начать обучение</a>
+    </div>
+</div>
+</section>
+
+
+<div class="container">
+    <section id="">
+        <div class="card">
+            <h2>Добро пожаловать в мир разработки игр</h2>
+            <p>На этом сайте вы найдете все необходимые ресурсы для создания игр. С помощью нашего контента и инструментов вы сможете создавать захватывающие игры, учиться новому и обмениваться опытом с другими разработчиками.</p>
+        </div>
+    </section>
+    <div class="card">
+        <h2>Разработчики игр</h2>
+        <p>Разработчики игр — это специалисты, которые создают видеоигры, и их работа охватывает широкий спектр ролей и дисциплин. Разработка игры включает в себя множество этапов, от идеи до выпуска. Вот несколько ключевых типов разработчиков игр и информации о них:</p>
+    </div>
+    <div class="card">
+        <h2>Гейм-дизайнеры</h2>
+        <p>Роль: Они занимаются созданием концепции игры, механики, правил и общего опыта пользователя. Гейм-дизайнеры определяют, как будет взаимодействовать игрок с игрой и что он будет делать в процессе.
+            Навыки: Креативность, аналитическое мышление, понимание психологии игроков.
+            Пример: Роджер Вольфсон (гейм-дизайнер игр, таких как The Sims и SimCity).</p>
+    </div>
+    <div class="card">
+        <h2>Программисты</h2>
+        <p>Роль: Программисты пишут код, который приводит игру в действие. Они могут работать с разными языками программирования, такими как C++, C#, Python и другие, а также с игровыми движками (например, Unity, Unreal Engine).
+            Навыки: Знание алгоритмов, оптимизация, знание специфики платформ (ПК, консоли, мобильные устройства).
+            Пример: Джон Кармак (один из основателей id Software, создатель игры DOOM).</p>
+    </div>
+    <div class="card">
+        <h2>Художники</h2>
+        <p>Роль: Художники создают визуальные элементы игры, включая персонажей, окружение, анимацию, текстуры и спецэффекты. В этой области могут быть различные специализации, такие как 2D и 3D художники, концепт-художники.
+            Навыки: Умение работать с графическими программами (Photoshop, Blender, ZBrush), креативность.
+            Пример: Сид Мейер (создатель серии игр Civilization, хотя в первую очередь известен как дизайнер, его вклад в визуальную сторону игры также значителен).</p>
+    </div>
+    <div class="card">
+        <h2>Звукорежиссеры и композиторы</h2>
+        <p>Роль: Они создают звуковое сопровождение игры, включая музыку, звуковые эффекты и озвучку. Звуки играют важную роль в погружении игроков в мир игры.
+            Навыки: Музыкальное образование, знание программ для работы с аудио, креативность.
+            Пример: Хироюки Ивао (композитор, известный своей работой над играми Final Fantasy и Kingdom Hearts).</p>
+    </div>
+    <div class="card">
+        <h2>Продюсеры</h2>
+        <p>Роль: Продюсеры управляют процессом разработки игры, координируют работу различных команд, следят за соблюдением сроков и бюджета. Они также могут работать с маркетингом и выпуском игры.
+            Навыки: Организационные способности, управление проектами, коммуникация.
+            Пример: Кен Левин (продюсер и директор BioShock).</p>
+    </div>
+    <div class="card">
+        <h2>Тестировщики игр (QA)</h2>
+        <p>Роль: Тестировщики играют в игру, ищут баги, ошибки и другие проблемы. Они помогают улучшить качество игры, проверяя все аспекты работы и игры.
+            Навыки: Внимание к деталям, терпение, аналитическое мышление.
+            Пример: Хотя тестировщики часто остаются в тени, их вклад в конечный продукт имеет решающее значение.</p>
+    </div>
+    <div class="card">
+        <h2>Сценаристы</h2>
+        <p>Роль: Сценаристы пишут сюжет и диалоги для игры. Они создают мир, в который погружается игрок, прописывают историю и поведение персонажей.
+            Навыки: Креативность, умение строить интригующие сюжеты, знание техники написания диалогов.
+            Пример: Дэвид Кейдж (основатель Quantic Dream и создатель игр, таких как Heavy Rain и Detroit: Become Human).</p>
+    </div>
+    <div class="card">
+        <h2>Разработка игр в разных странах и студиях:</h2>
+        <p>Западные студии: Известные компании, такие как Naughty Dog (создатели The Last of Us), Rockstar Games (создатели Grand Theft Auto), Bethesda Game Studios (создатели The Elder Scrolls).
+            Японские студии: Nintendo (разработчики Super Mario, Zelda), Square Enix (разработчики Final Fantasy).
+            Инди-разработчики: Малые студии или одиночные разработчики, создающие игры с уникальными идеями. Пример: Hollow Knight (Team Cherry), Celeste (Maddy Makes Games).</p>
+    </div>
+    <section id="docs">
+        <div class="card">
+                <h2>Документация</h2>
+            <p>Мы подготовили для вас подробные руководства по использованию популярных игровых движков, таких как Unity, Unreal Engine и Godot. Изучите лучшие практики и основы разработки игр.</p>
+            <a href="https://sky.pro/wiki/gamedev/populyarnye-igrovye-dvizhki-unity-unreal-engine-i-godot/" class="bb">Перейти к документации</a>
+            </div>
+    </section>
+
+    <section id="tools">
+        <div class="card">
+            <h2>Инструменты для разработки</h2>
+                <div class="ii">
+                    <a href="#in" class="bt">Перейти</a>
+                </div>
+                
+            <p class="pp">Мы рекомендуем следующие инструменты для разработки игр:</p>
+            <ul>
+                <li><strong><a href="https://youtu.be/YKf1Yo58RYA?si=PYagFBySStR57aLS" class="bb">Unity</a></strong> - Универсальный игровой движок.</li>
+                <li><strong><a href="https://youtu.be/IVt72QlLdds?si=8k-OXA2g5Ksey73K" class="bb">Unreal Engine</a></strong> - Мощный движок с фотореалистичной графикой.</li> 
+                <li><strong><a href="https://youtu.be/h0th3K4Hkc8?si=_XxZPwOzwlrUhHQH" class="bb">Blender</a></strong> - Бесплатная программа для 3D-моделирования.</li>
+                <li><strong><a href="https://youtu.be/R0t9KQMTPPw?si=f7ZxQpZOhE4od7a6" class="bb">edX</a></strong> - Управление различными предложениями.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="forum">
+        <div class="card">
+            <h2>Форум разработчиков</h2>
+            <p>Присоединяйтесь к нашему форуму, чтобы общаться с другими разработчиками, решать проблемы и делиться своим опытом.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="card">
+            <h2>Примеры проектов</h2>
+            <p>Посмотрите успешные проекты, созданные с использованием различных инструментов, и получите вдохновение для своих собственных игр.</p>
+            <a href="#" class="bb">Ознакомиться с примерами</a>
+        </div>
+    </section>
+    <section id="resources">
+        <div class="card">
+            <h2>Обучающие ресурсы</h2>
+            <p>Мы собрали лучшие курсы и материалы для обучения разработке игр. Независимо от того, новичок ли вы или опытный разработчик, вы найдете что-то полезное для себя.</p>
+            <a href="https://gripinsky.ru/?utm_source=yandex&utm_medium=cpc&utm_campaign=112918332&utm_content=gid|5471657540|ad_id|16336642261|phrase_id|52520966816&utm_term=---autotargeting&type=search&added=no&block=premium&pos=1&device=&yclid=16930633183229902847" class="bb">Посмотреть ресурсы</a>
+        </div>
+    </section>
+    <div class="text-text">
+        <strong>Unity</strong>
+        </div>
+        <section>
+            <div class="scr">
+                <img src="img/unity 3D.webp" alt="">
+                        </div>
+        </section>
+       
+    <section>
+        <div    class="text-text">
+<strong>Blender</strong>
+        </div>
+        
+    </section>
+<section>
+    <div class="scr">
+            <img style="width: 1300px;" src="img/Blender панель.webp" alt="">
+        </div>
+                </div>
+</section>
+<div class="text-text">
+<strong>Unreal Engine </strong>
+</div>
+<section>
+    <div style="padding: 25px;" class="scr">
+        <img style="width: 1300px;" src="img/Unreal Engine панель.png" alt="">
+                </div>
+</section>
+
+<div class="text-text">
+    <strong>tdX</strong>
+    </div>
+    <section>
+        <div style="padding: 25px;" class="scr">
+            <img style="width: 1300px;" src="img/e.png" alt="">
+                    </div>
+    </section>
+<section id="in">
+<div id="cards">
+    <div class="cardd">
+      <div class="cardd-content">
+        <i class="fa-brands fa-Unity"></i>
+        <img class="unity" src="img/unity.jpg" alt="">
+        <h2>Unity</h2>
+        <a href="https://unity.com/ru/download">
+          <i class="fa-solid fa-link">Скачать</i>
+          
+        </a>
+      </div>
+    </div>
+    <div class="cardd">
+      <div class="cardd-content">
+        <i class="fa-brands fa-Unreal Engine"></i>
+        <img class="uneral" src="img/uneral.jpg" alt="">
+        <h2>Unreal Engine</h2>
+
+
+        <a href="https://www.unrealengine.com/en-US/download">
+          <i class="fa-solid fa-link">Скачать</i>
+        </a>
+      </div>
+    </div>
+    <div class="cardd">
+      <div class="cardd-content">
+        <i class="fa-brands fa-Blender"></i>
+        <img class="blender" src="img/Blender.jpg" alt="">
+        <h2>Blender</h2>
+
+
+        <a href="https://www.blender.org/download/">
+          <i class="fa-solid fa-link">Скачать</i>
+        </a>
+      </div>
+    </div>
+    <div class="cardd">
+        <div class="cardd-content">
+          <i class="fa-brands fa-Blender"></i>
+          <img class="edX" src="img/edx.jpg" >
+          <h2>edX</h2>
+  
+  
+          <a  href="https://www.edx.org/?url=https://www.edx.org/">
+            <i class="fa-solid fa-link">Скачать</i>
+          </a>
+        </div> 
+</section>
+</div>
+        </div>
+  </div>
+
+<footer>
+    <p>&copy; 2024 Разработка игр. Все права защищены.</p>
+</footer>
+
+  <script src="js.js"></script>
+</body>
+</html>

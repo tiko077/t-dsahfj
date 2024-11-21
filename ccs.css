@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); /*оптимизация*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box; /*селектор*/
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 768px) { nav ul
+{
+  flex-direction: column;
+  align-items: center;
+}  /*оптимизация*/
+nav ul li{
+margin: 10px 0;
+}
+h1{
+  font-size: 24px;
+}
+}
+
+
+
+#cards {
+  width: 70%;
+  padding-inline: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cardd {
+  min-width: 200px;
+  height: 350px;
+  flex: 1 1 250px;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  position: relative;
+}
+
+#cards:hover > .card {
+  background: radial-gradient(
+    400px circle at var(--mouse-x) var(--mouse-y),
+    hsl(var(--color) / 1),
+    rgba(255, 255, 255, 0.12) 40%
+  );
+}
+
+.cardd-content {
+  position: absolute;
+  inset: 1px;
+  background-color: #131315;
+  border-radius: inherit;
+}
+
+.cardd:nth-child(1) {
+  --color: 348 80% 60%;
+}
+.cardd:nth-child(2) {
+  --color: 0 0% 100%;
+}
+.cardd:nth-child(3) {
+  --color: 220 100% 35%;
+}
+
+.cardd::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    500px circle at var(--mouse-x) var(--mouse-y),
+    hsl(var(--color) / 0.35),
+    transparent 40%
+  );
+  border-radius: inherit;
+  opacity: 0;
+  z-index: 2;
+}
+
+#cards:hover > .card::before {
+  opacity: 1;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.cardd-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+}
+
+.cardd-content > i {
+  font-size: 10rem;
+}
+
+.cardd-content > p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cardd-content > a {
+  width: 90%;
+  padding-block: 0.8rem;
+  background-color: rgb(94, 94, 94);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+.cardd-content > a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+   
+
+.unity{
+  width: 100px;
+  height: 100px;
+}
+
+.uneral{
+  width: 100px;
+  height: 100px;
+}
+
+.blender{
+  width: 100px;
+  height: 100px;
+}
+       
+.edX{
+  width: 100px;
+  height: 100px;
+}
+
+
+.content {
+  height: 1500px; /* Высота для прокрутки */
+  padding: 20px;
+}
+
+.first-element {
+  background-color: #ff6347;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
